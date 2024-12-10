@@ -21,7 +21,17 @@ public class BMI {
 	}
 	
 	public double getBMI() {
-		return 
+		return weight/(height*height);
+	}
+	
+	public void status() {
+		if(getBMI()<18) {
+			System.out.println("UNDERWEIGHT");
+		}else if(getBMI()<24) {
+			System.out.println("NORMAL WEIGHT");
+		}else {
+			System.out.println("OVERWEIGHT");
+		}
 	}
 
 }
