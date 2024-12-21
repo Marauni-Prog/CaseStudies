@@ -1,0 +1,34 @@
+–color: String
+–filled: boolean
+–dateCreated: java.util.Date
+#GeometricObject()
+#GeometricObject(color: string, filled:
+boolean)
++getColor(): String
++setColor(color: String): void
++isFilled(): boolean
++setFilled(filled: boolean): void
++getDateCreated(): java.util.Date
++toString(): String
++getArea(): double
++getPerimeter(): double
+
+–radius: double
++Circle()
++Circle(radius: double)
++Circle(radius: double, color: string, filled:
+boolean)
++getRadius(): double
++setRadius(radius: double): void
++getDiameter(): double
+
+–width: double
+–height: double
++Rectangle()
++Rectangle(width: double, height: double)
++Rectangle(width: double, height: double, color:
+string, filled: boolean)
++getWidth(): double
++setWidth(width: double): void
++getHeight(): double
++setHeight(height: double): void
